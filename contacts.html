@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+
+<center>
+    <form action="action.html" autocomplete="off">
+        <label for="fname">Firstname:<span style="color:red">*</span></label>
+        <br>
+        <input type="text" required name="fname">
+        <br>
+        <br>
+         <label for="lname">Lastname:<span style="color:red">*</span></label>
+         <br>
+        <input type="text" required name="lname">
+        <br>
+        <br>
+        <label for="email">email:<span style="color:red">*</span></label>
+        <br>
+        <input type="email" required name="email" pattern="^[a-z\d\W]+@gmail\.com$">
+        <br>
+        <br>
+        <label for="password">Password:<span style="color:red">*</span></label>
+        <br>
+        <input type="password" required name="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*\W).{8,16}">
+        <br>
+        <br>
+        <input type="submit">
+
+
+    </form>
+    </center>
+    
+
+
+    
+</body>
+</html>
